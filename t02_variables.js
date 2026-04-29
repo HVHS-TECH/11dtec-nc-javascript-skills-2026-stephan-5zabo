@@ -8,6 +8,8 @@ let Username = "Stephan";
 let Year = 2026;
 let age = 15;
 let money = 57;
+let birthYear;
+let oldAge;
 
 
 /****************************
