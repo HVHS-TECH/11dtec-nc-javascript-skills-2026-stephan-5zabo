@@ -2,7 +2,7 @@ const output = document.getElementById("spaceForJavaScriptOutput");
 /****************************
 Main Code
 ****************************/
-writeline(Less, code, 8);
+writeline("Less", "code", 8);
 
 
 
