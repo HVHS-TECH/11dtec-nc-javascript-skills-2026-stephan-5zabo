@@ -2,7 +2,7 @@ const output = document.getElementById("spaceForJavaScriptOutput");
 /****************************
 Main Code
 ****************************/
-writeline(Less, code, matters);
+writeline(Less, code, 8);
 
 
 
@@ -11,6 +11,6 @@ writeline(Less, code, matters);
 /****************************
 Functions
 ****************************/
-function writeline(){
- output.innerHTML += "<p>Less code matters</p>";
+function writeline(Less, code, matters){
+ output.innerHTML += "<p>"+Less + code + matters +"</p>";
 };
