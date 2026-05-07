@@ -15,4 +15,6 @@ function writeline(Less, code, matters){
  output.innerHTML += "<p>"+Less + code + matters +"</p>";
 };
 
-function displayWelcome(_name)
+function displayWelcome(_name){
+    output. innerHTML += "<p> Welcome to the page "+_name+"</p>"
+}
