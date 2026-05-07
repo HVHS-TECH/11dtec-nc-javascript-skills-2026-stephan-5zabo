@@ -1,7 +1,7 @@
 /****************************
 Main Code
 ****************************/
-writeline()
+writeline(Yournotthecaryoudrive)
 
 
 
@@ -10,6 +10,6 @@ writeline()
 /****************************
 Functions
 ****************************/
-function writeline(){
+function writeline(Yournotthecaryoudrive,){
     output.innerHTML += "<p>Less code matters</p>";
 }
