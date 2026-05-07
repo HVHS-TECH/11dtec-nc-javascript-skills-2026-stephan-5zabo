@@ -3,7 +3,7 @@ const output = document.getElementById("spaceForJavaScriptOutput");
 Main Code
 ****************************/
 writeline("Less", "code", 8);
-displayWelcome("stephan", 15)
+displayWelcome("Stephan", 15)
 
 
 
