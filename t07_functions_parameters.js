@@ -14,3 +14,5 @@ Functions
 function writeline(Less, code, matters){
  output.innerHTML += "<p>"+Less + code + matters +"</p>";
 };
+
+function displayWelcome(_name)
