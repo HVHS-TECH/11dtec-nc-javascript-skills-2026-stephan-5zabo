@@ -1,1 +1,14 @@
-/* Paste your code from task 5 here */
+/****************************
+Main Code
+****************************/
+
+
+
+
+
+
+/****************************
+Functions
+****************************/
+function writeline(){
+    output.innerHTML += "<p>Less code matters</p>";
