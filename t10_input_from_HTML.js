@@ -6,7 +6,10 @@ Main Code
 writeline("Less", "code", 8);
 displayWelcome("Stephan", 15)
 
-
+<form>
+   <input type = "text">
+   <input type = "submit">
+</form>
 
 /****************************
 Functions
