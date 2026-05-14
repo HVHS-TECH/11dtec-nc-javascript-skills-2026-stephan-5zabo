@@ -1,4 +1,5 @@
 const output = document.getElementById("spaceForJavaScriptOutput");
+output.innerHTML = "hello world<br>";
 /****************************
 Main Code
 ****************************/
