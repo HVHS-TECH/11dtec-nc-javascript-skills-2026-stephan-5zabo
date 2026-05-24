@@ -30,9 +30,10 @@
 
 
   <script src="../t10_input_from_HTML.js"></script>
- <form>
-   <input type = "text">
-   <input type = "submit">
+ <form onsubmit="return false;">
+   <label for="FormName">Name:</label>
+   <input type = "text" id="nameField" name="Formname">
+   <input type = "submit" onclick=getFormInput()>
  </form>
 </body>
 
