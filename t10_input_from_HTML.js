@@ -14,11 +14,8 @@ displayWelcome("Stephan", 15)
 /****************************
 Functions
 ****************************/
-function writeline(Less, code, matters){
- output.innerHTML += "<p>"+Less + code + matters +"</p>";
-};
-
-function displayWelcome(_name, _age){
-    output. innerHTML += "<p> Welcome to the page "+_name+"</p>"
-    output. innerHTML += "<p>You are "+_age+" years old</p>"
+function getFormInput(){
+    Const Name_FIELD =  document.getElementById("nameField");
+    let userName = Name_FIELD.value;
+    output.innerHTML = "<p>Your name is "+userName+"</p>";
 }
