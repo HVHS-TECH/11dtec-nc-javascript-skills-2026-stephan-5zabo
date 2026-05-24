@@ -1,5 +1,8 @@
 const output = document.getElementById("spaceForJavaScriptOutput");
 output.innerHTML = "hello world<br>";
+
+const output = document.getElementById("nameField");
+let userName = nameField.value;
 /****************************
 Main Code
 ****************************/
