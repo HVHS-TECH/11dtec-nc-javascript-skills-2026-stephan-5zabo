@@ -40,3 +40,7 @@ function writeline(){
 // add a line to the html page
 output.innerHTML += "<p>welcome to my shop</p>"
 }
+
+function displayWelcome(_name){
+    output.innerHTML += "<p>welcome to my store "+_name+"</p>"
+}
