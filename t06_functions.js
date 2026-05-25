@@ -27,9 +27,16 @@ output.innerHTML += "<p> in 10 years you will be " + oldAge + " Years old,</p>";
 output.innerHTML += "<p> you have " + money + " dollars,</p>";
 output.innerHTML += "<p> You spend half of your money, now you have " + halfMoney + "</p>";
 output.innerHTML += "<p> Then you get $3, now you have " + addMoney + "</p>";
+
+writeline()
 /****************************
 Functions
 
 
 
 ****************************/
+
+function writeline(){
+// add a line to the html page
+output.innerHTML += "<p>welcome to my shop</p>"
+}
