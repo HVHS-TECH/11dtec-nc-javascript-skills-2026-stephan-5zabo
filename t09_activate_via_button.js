@@ -37,7 +37,10 @@ Functions
 ****************************/
 
 function start(){
-<button onClick="start()">Start</button>
+    <p>open the console <code>(Ctrl-shift-i)</code>
+    <button onclick="start()">Start</button>
+    <div id="spaceForJavaScriptOutput">
+
     spaceForJavaScriptOutput.innerHTML
     spaceForJavaScriptOutput.innerHTML
     answer= 2026 - 15;
