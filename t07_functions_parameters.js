@@ -28,6 +28,7 @@ output.innerHTML += "<p> you have " + money + " dollars,</p>";
 output.innerHTML += "<p> You spend half of your money, now you have " + halfMoney + "</p>";
 output.innerHTML += "<p> Then you get $3, now you have " + addMoney + "</p>";
 
+
 writeline()
 /****************************
 Functions
