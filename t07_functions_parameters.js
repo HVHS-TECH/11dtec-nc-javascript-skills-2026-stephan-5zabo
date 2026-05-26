@@ -27,7 +27,7 @@ output.innerHTML += "<p> in 10 years you will be " + oldAge + " Years old,</p>";
 output.innerHTML += "<p> you have " + money + " dollars,</p>";
 output.innerHTML += "<p> You spend half of your money, now you have " + halfMoney + "</p>";
 output.innerHTML += "<p> Then you get $3, now you have " + addMoney + "</p>";
-displayWelcome("chocolate", 4)
+displayWelcome( 4, 3, 2.50, )
 displayWelcome("chips", 3)
 displayWelcome("drink", 2.50)
 
