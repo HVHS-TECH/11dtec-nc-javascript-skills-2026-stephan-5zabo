@@ -36,7 +36,10 @@ Functions
 
 ****************************/
 function start(){
-    
+    spaceForJavaScriptOutput.innerHTML
+    spaceForJavaScriptOutput.innerHTML
+    answer= 2026 - 15;
+    spaceForJavaScriptOutput.innerHTML
 }
 
 function writeline(){
