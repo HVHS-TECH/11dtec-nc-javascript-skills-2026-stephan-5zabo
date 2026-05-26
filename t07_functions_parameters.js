@@ -27,7 +27,9 @@ output.innerHTML += "<p> in 10 years you will be " + oldAge + " Years old,</p>";
 output.innerHTML += "<p> you have " + money + " dollars,</p>";
 output.innerHTML += "<p> You spend half of your money, now you have " + halfMoney + "</p>";
 output.innerHTML += "<p> Then you get $3, now you have " + addMoney + "</p>";
-
+displayWelcome("chocolate", 4)
+displayWelcome("chips", 3)
+displayWelcome("drink", 2.50)
 
 writeline()
 /****************************
@@ -44,5 +46,7 @@ output.innerHTML += "<p>welcome to my shop</p>"
 
 function displayWelcome(chocolate,chips,drink){
     output.innerHTML += "<p>welcome to my store "+Username+"</p>"
-    output.innerHTML += "<p> "+Username+"</p>"
+    output.innerHTML += "<p>"+chocolate+"</p>"
+    output.innerHTML += "<p>"+chips+"</p>"
+    output.innerHTML += "<p>"+drink+"</p>"
 }
