@@ -41,7 +41,7 @@ function writeline(){
 output.innerHTML += "<p>welcome to my shop</p>"
 }
 
-function displayWelcome(chocoltate,chips,drink){
+function displayWelcome(chocolate,chips,drink){
     output.innerHTML += "<p>welcome to my store "+Username+"</p>"
-    
+    output.innerHTML += "<p> "+Username+"</p>"
 }
