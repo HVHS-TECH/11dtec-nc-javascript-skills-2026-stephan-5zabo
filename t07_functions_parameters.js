@@ -46,6 +46,6 @@ output.innerHTML += "<p>welcome to my shop</p>"
 function displayWelcome(chocolate,chips,drink){
     output.innerHTML += "<p>welcome to my store "+Username+"</p>"
     output.innerHTML += "<p>Chocolate Bar: $"+chocolate+"</p>"
-    output.innerHTML += "<p>Cum: $"+chips+"</p>"
-    output.innerHTML += "<p>"+drink+"</p>"
+    output.innerHTML += "<p>Doritos: $"+chips+"</p>"
+    output.innerHTML += "<p>Pepsi: $"+drink+"</p>"
 }
