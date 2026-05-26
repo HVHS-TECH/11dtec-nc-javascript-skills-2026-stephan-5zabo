@@ -35,7 +35,9 @@ Functions
 
 
 ****************************/
+
 function start(){
+<button onClick="start()">Start</button>
     spaceForJavaScriptOutput.innerHTML
     spaceForJavaScriptOutput.innerHTML
     answer= 2026 - 15;
