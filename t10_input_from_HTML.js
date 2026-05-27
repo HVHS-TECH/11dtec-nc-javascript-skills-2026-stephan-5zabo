@@ -32,7 +32,7 @@ Functions
 
 
 function getforminput(){
-    const NAME_FIELD = document.getElementById("namefield")
+    const NAME_FIELD = document.getElementById("Namefield")
     let Username = NAME_FIELD.value;
     output.innerHTML = "<p> Your name is "+Username+" you goober </p>"
 }
