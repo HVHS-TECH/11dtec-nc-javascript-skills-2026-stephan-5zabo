@@ -20,7 +20,7 @@ addMoney = halfMoney + 3;
 /****************************
 Main Code
 ****************************/
-const output = document.getElementById("spaceForJavaScriptOutput");
+const output = document.getElementById("1");
 
 /****************************
 Functions
@@ -34,6 +34,6 @@ Functions
 function getFormInput(){
     const NAME_FIELD = document.getElementById("Namefield")
      Username = NAME_FIELD.value;
-     console.log("<p> Your name is "+Username+" you goober </p>")
+     console.log("Your name is "+Username+" you goober.")
     output.innerHTML = "<p> Your name is "+Username+" you goober </p>";
 };
