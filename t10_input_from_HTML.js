@@ -34,5 +34,6 @@ Functions
 function getFormInput(){
     const NAME_FIELD = document.getElementById("Namefield")
      Username = NAME_FIELD.value;
+     console.log("<p> Your name is "+Username+" you goober </p>")
     output.innerHTML = "<p> Your name is "+Username+" you goober </p>";
 };
