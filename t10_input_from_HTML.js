@@ -31,7 +31,8 @@ Functions
 
 
 
-function writeline(){
-// add a line to the html page
-output.innerHTML += "<p>welcome to my shop</p>"
+function getforminput(){
+    const NAME_FIELD.value;
+    let Username = NAME_FIELD.value;
+    output.innerHTML = "<p> Your name is "+Username+" you goober </p>"
 }
