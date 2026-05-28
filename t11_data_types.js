@@ -34,7 +34,11 @@ Functions
 function getFormInput(){
     const NAME_FIELD = document.getElementById("Namefield")
      Username = NAME_FIELD.value;
+     output.innerHTML = "<p> Your name is "+Username+" </p>"
+    const NAME_FIELD = document.getElementById("agefield")
      age = AGE_FIELD.value;
+     output.innerHTML = "<p> you are "+age+" years old </p>"
+    const NAME_FIELD = document.getElementById("moneyfield")
      money = MONEY_FIELD.value;
-    output.innerHTML = "<p> Your name is "+Username+", you are "+age+" years old, And you have "+money+" pocket money left you goober </p>";
+     output.innerHTML = "<p> And you have "+money+" pocket money left you goober </p>";
 };
