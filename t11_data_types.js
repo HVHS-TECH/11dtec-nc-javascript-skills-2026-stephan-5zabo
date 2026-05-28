@@ -34,5 +34,7 @@ Functions
 function getFormInput(){
     const NAME_FIELD = document.getElementById("Namefield")
      Username = NAME_FIELD.value;
+     age = AGE_FIELD.value;
+     money = MONEY_FIELD.value;
     output.innerHTML = "<p> Your name is "+Username+", you are "+age+" years old, And you have "+money+" pocket money left you goober </p>";
 };
