@@ -4,7 +4,7 @@
 console.log("running t01_javascriptAndHtml.js")
 
 // Variables
-String Username = "Stephan";
+let Username = "Stephan";
 let Year = 2026;
 let age = 15;
 let money = 57;
@@ -34,6 +34,5 @@ Functions
 function getFormInput(){
     const NAME_FIELD = document.getElementById("Namefield")
      Username = NAME_FIELD.value;
-    output.innerHTML = "<p> Your name is "+Username+" you goober </p>";
-    output.innerHTML = "<p> you have"+money+" pocket money left you goober </p>";
+    output.innerHTML = "<p> Your name is "+Username+" you goober, you have "+money+" pocket money left you goober </p>";
 };
