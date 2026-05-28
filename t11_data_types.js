@@ -35,7 +35,7 @@ function getFormInput(){
     const NAME_FIELD = document.getElementById("Namefield")
      Username = NAME_FIELD.value;
      output.innerHTML = "<p> Your name is "+Username+" </p>"
- const AGE_FIELD = document.getElementById("agefield")
+    const AGE_FIELD = document.getElementById("agefield")
      age = AGE_FIELD.value;
      output.innerHTML = "<p> you are "+age+" years old </p>"
     const MONEY_FIELD = document.getElementById("moneyfield")
