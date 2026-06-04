@@ -41,7 +41,7 @@ function getFormInput(){
     const MONEY_FIELD = document.getElementById("moneyfield")
      money = MONEY_FIELD.value;
      output.innerHTML += "<p> And you have "+money+" pocket money left you goober </p>";
-
+    output.innerHTML += "<p>A chocolate bar costs $4</p>";
     if (money >= 4){
      output.innerHTML += "<p> i guess you can buy it pussy </p>";
     } else {
