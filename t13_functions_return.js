@@ -50,8 +50,8 @@ function getFormInput(){
 
 };
 
-function getFormInput(_money,_price){
-    
+function calculateChange(_money,_price){
+    return (_money-_price)
 }
 
 
