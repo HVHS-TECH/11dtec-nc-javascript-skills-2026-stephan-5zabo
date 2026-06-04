@@ -50,6 +50,8 @@ function getFormInput(){
 
 };
 
-function getFormInput(){
+function getFormInput(_money,_price){
+    
+}
 
 
