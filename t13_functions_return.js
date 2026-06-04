@@ -44,6 +44,7 @@ function getFormInput(){
     output.innerHTML += "<p>A chocolate bar costs $4</p>";
     if (money >= 4){
      output.innerHTML += "<p> i guess you can buy it pussy </p>";
+     output.innerHTML += "<p> you will get "+calculateChange(money, 4)+" change</p>";
     } else {
        output.innerHTML += "<p> broke pussy </p>";    
     }
