@@ -41,4 +41,8 @@ function getFormInput(){
     const MONEY_FIELD = document.getElementById("moneyfield")
      money = MONEY_FIELD.value;
      output.innerHTML += "<p> And you have "+money+" pocket money left you goober </p>";
+
+    if (money < 50){
+        console.log ("your too rich you wanker")
+    }
 };
