@@ -42,10 +42,10 @@ function getFormInput(){
      money = MONEY_FIELD.value;
      output.innerHTML += "<p> And you have "+money+" pocket money left you goober </p>";
 
-    if (money > 50){
-        console.log ("your too rich you wanker")
+    if (money >= 4){
+     output.innerHTML += "<p> i guess you can buy it pussy </p>";
     } else {
-        console.log ("")
+       output.innerHTML += "<p> broke pussy </p>";    
     }
 
 };
